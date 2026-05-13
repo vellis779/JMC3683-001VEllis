@@ -1,0 +1,44 @@
+body {
+font: 12pt Verdana, Arial, Georgia, sans-serif;
+}
+
+#nav {
+width: 150px;
+float: left;
+margin-top: 12px;
+margin-right: 18px;
+}
+
+#content {
+width: 550px;
+float: left;
+}
+
+#nav a {
+text-decoration: none;
+}
+
+#content a {
+text-decoration: none;
+font-weight: bold;
+}
+
+#nav ul {
+list-style: none;
+margin: 12px 0px 0px 0px;
+padding: 0px;
+}
+
+#nav li {
+border-bottom: 1px solid #ffffff;
+}
+
+#nav li a:link,
+#nav li a:visited {
+font-size: 10pt;
+font-weight: bold;
+display: block;
+padding: 3px 0px 3px 3px;
+background-color: #628794;
+color: #ffffff;
+}

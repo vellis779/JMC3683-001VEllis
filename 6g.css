@@ -1,0 +1,51 @@
+body {
+font: 12pt Verdana, Arial, Georgia, sansserif;
+width: auto;
+margin: 0 20px;
+box-sizing: border-box;
+}
+
+header {
+width: 95%;
+background-color: antiquewhite;
+margin: auto;
+}
+
+#logo {
+float: left;
+}
+
+nav {
+float: left;
+margin-right: 5%;
+}
+
+nav ul {
+list-style: none;
+display: block;
+}
+
+nav li {
+display: block;
+}
+
+section {
+width: 96%;
+float: left;
+clear: left;
+}
+
+section p {
+background-color: antiquewhite;
+padding: 10px;
+margin-left: 3vw;
+}
+
+section a {
+text-decoration: underline;
+font-weight: bold;
+}
+
+section li {
+list-style-type: none;
+}
