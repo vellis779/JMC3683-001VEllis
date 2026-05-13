@@ -1,0 +1,24 @@
+div.imageleft {
+float: left;
+clear: all;
+text-align: left;
+font-size: 14px;
+font-style: italic;
+}
+
+div.imageright {
+float: right;
+clear: all;
+text-align: right;
+font-size: 14px;
+font-style: italic;
+}
+
+img {
+padding: 15px;
+border: none;
+}
+
+h1 {
+text-align: center;
+}
