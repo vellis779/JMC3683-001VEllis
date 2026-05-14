@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f7f7f7;
+}
+h2 {
+  font-family: Sans, sans-serif;
+}
+
+/* Banner */
+.banner {
+  background: black;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.menu-note {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #555;
+  width: 70%;
+  margin: 20px auto;
+  line-height: 1.5;
+}
+
+
+/* Thumbnails */
+.thumbs {
+  text-align: center;
+  padding: 20px;
+}
+
+.thumb {
+  width: 150px;   /* your Photoshop-sized thumbnails */
+  height: auto;
+  margin: 10px;
+  border: 2px solid #ccc;
+}
+
+.full {
+  width: 60%;
+  display: block;
+  margin: 20px auto;
+}
+figure {
+  text-align: center;
+}
