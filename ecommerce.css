@@ -3,49 +3,71 @@ body {
   margin: 0;
   background: #f7f7f7;
 }
+
 h2 {
   font-family: Sans, sans-serif;
 }
 
 /* Banner */
 .banner img {
-  width: 100%;        
-  max-width: 1200px;  
-  height: auto;       
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
   display: block;
-  margin: 0 auto;   
+  margin: 0 auto;
+}
+
+/* Menu Title + Note */
+.menu-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 40px;
 }
 
 .menu-note {
   text-align: center;
-  font-size: 1.1rem;
-  color: #555;
   width: 70%;
-  margin: 20px auto;
+  margin: 10px auto 30px auto;
   line-height: 1.5;
+  color: #555;
 }
 
-
+/* Thumbnail Grid */
 .thumb-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
   max-width: 900px;
-  margin: 20px auto;
-  padding: 10px;
+  margin: 0 auto;
+  padding: 20px;
 }
-.thumb-grid img {
+
+/* Each Thumbnail Item */
+.thumb-item {
+  text-align: center;
+}
+
+.thumb-item img {
   width: 100%;
-  height: 200px;      
-  object-fit: cover;  
+  height: 200px;      /* SAME HEIGHT */
+  object-fit: cover;  /* CROPS NICELY */
   border-radius: 8px;
   border: 2px solid #ddd;
 }
 
+.thumb-item h3 {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Full-size image pages */
 .full {
   width: 60%;
   display: block;
   margin: 20px auto;
+}
+
 }
 figure {
   text-align: center;
